@@ -1,0 +1,149 @@
+
+.main{
+    height: 100%;
+    width: 100%;
+}
+
+.prodesc{
+    height: calc(100vh - 80px);
+    width: 100%;
+    padding: 40px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .left{
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.leftimg{
+    height:450px;
+    width: 40%;
+    border-radius: 10px;
+    /* border: 1px solid #03426A; */
+}
+
+.rightdesc{
+    height: 450px;
+    width: 54%;
+    /* border: 2px solid red; */
+
+}
+
+.leftimg img{
+    /* height: 400px; */
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.productText h2{
+    font-size: 40px;
+    font-family: "gilroy";
+    color: black;
+    font-weight: 600;
+    text-transform: capitalize;
+    /* color: white; */
+    
+}
+
+.productText p{
+    font-family: "gilroy";
+    font-weight: 500;
+    /* color: #444; */
+    color: rgb(138, 138, 138);
+    width: 76%;
+    margin-top: 14px;
+    line-height: 30px;
+}
+
+.productText h3{
+    font-size: 28px;
+    font-family: "gilroy";
+    font-weight: 600;
+    text-transform: capitalize;
+    /* color: black; */
+    color: #1375F5;
+    margin-top: 14px;
+}
+
+.productText h4{
+    font-size: 25px;
+    font-family: "gilroy";
+    font-weight: 600;
+    text-transform: capitalize;
+    /* color: #444; */
+    color: black;
+}
+
+#features {
+    margin-top: 20px;
+}
+
+.biding{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.addtocart{
+    font-size: 18px;
+    font-family: "gilroy";
+    font-weight: 500;
+    text-transform: capitalize;
+    /* background-color: #1375F5; */
+    background-color: white;
+    /* color: white; */
+    color: #1375F5;
+    border: 2px solid #1375F5;
+    padding: 8px 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.201);
+}
+
+.buynow{
+    font-size: 18px;
+    font-family: "gilroy";
+    font-weight: 500;
+    text-transform: capitalize;
+    background-color: #1375F5;
+    color: white;
+    padding: 8px 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.201);
+}
+
+#category {
+    font-weight: 500;
+}
+
+.two{
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.two li{
+    font-size: 18px;
+    font-family: "gilroy";
+    font-weight: 500;
+    text-transform: capitalize;
+    /* color: white; */
+    /* color: black; */
+    color: #444;
+    /* margin-top: 20px; */
+    margin-bottom: 30px;
+}
+
+.second{
+    margin-left: 100px;
+}

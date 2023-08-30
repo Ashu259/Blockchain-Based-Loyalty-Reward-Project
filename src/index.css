@@ -1,0 +1,1372 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    height: 70px;
+    width: 100%;
+    padding: 0px 60px;
+    background-color: #2874f0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .leftnav {
+    height: 100%;
+    width: 50%;
+    padding: 0px 40px;
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.leftnav img {
+    height: 40px;
+}
+
+.leftnav #input {
+    height: 35px;
+    width: 450px;
+    font-size: 15px;
+    font-family: "gilroy";
+    font-weight: 500;
+    text-transform: capitalize;
+    background-color: white;
+    border-radius: 4px;
+    outline: none;
+    color: rgba(29, 29, 29, 0.592);
+    padding: 0px 14px;
+    margin-left: 30px;
+    box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.201);
+    border: none;
+    letter-spacing: 0.8px;
+}
+
+.leftnav i {
+    font-size: 18px;
+    color: #2874f0;
+    margin-left: -30px;
+}
+
+.rightnav {
+    height: 100%;
+    width: 45%;
+    /* background-color: green; */
+    padding: 0px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rightnav .login {
+    font-size: 17px;
+    font-family: "gilroy";
+    font-weight: 500;
+    text-transform: capitalize;
+    background-color: white;
+    color: #2874f0;
+    padding: 6px 26px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.201);
+}
+
+.login i {
+    font-size: 15px;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+}
+
+.logout {
+    font-size: 17px;
+    font-family: "gilroy";
+    font-weight: 500;
+    text-transform: capitalize;
+    background-color: white;
+    color: red;
+    padding: 6px 26px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.201);
+}
+
+.rightnav #loggedinUser {
+    font-family: "gilroy";
+    font-weight: 500;
+    text-transform: capitalize;
+    color: white;
+}
+
+.cart i {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+
+.cart p {
+    font-size: 17px;
+    font-family: "gilroy";
+    font-weight: 500;
+    text-transform: capitalize;
+    color: white;
+}
+
+.coin {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+}
+
+.coin img {
+    height: 20px;
+}
+
+.secondrow {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.checkbalance h2 {
+    font-size: 40px;
+    font-family: "gilroy";
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.checkbalance button {
+    font-size: 16px;
+    font-family: "gilroy";
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 7px 20px;
+    margin-top: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #1375F5;
+    background-color: white;
+    color: #1375F5;
+    border: none;
+}
+
+.coin p {
+    font-size: 17px;
+    font-family: "gilroy";
+    font-weight: 500;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+}
+
+.ri-menu-line {
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* Category */
+
+.allCategories {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: green; */
+    padding: 20px 0px;
+}
+
+.categories {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.category img {
+    height: 60px;
+}
+
+.category p {
+    font-family: "gilroy";
+    font-weight: 600;
+    text-transform: capitalize;
+    /* color: black; */
+    color: #222;
+    margin-top: 8px;
+}
+
+
+/* Banners */
+
+.bannerImg {
+    height: 500px;
+    width: 100%;
+}
+
+#banner {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.allcards {
+    padding: 30px 40px;
+}
+
+.lowercard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.cards {
+    width: 88%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.card1,
+.card2 {
+    height: 360px;
+    width: 300px;
+    /* background-color: black; */
+    background-color: #1375F5;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.card4 {
+    height: 360px;
+    width: 619px;
+    background-color: #F3BE2C;
+    border-radius: 8px;
+    padding: 30px;
+    position: relative;
+}
+
+.card5,
+.card6 {
+    height: 360px;
+    width: 300px;
+    /* background-color: black; */
+    background-color: #9BB6CF;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.card6 {
+    background-color: #CEAF90;
+    position: relative;
+}
+
+.card2 {
+    background-color: #2AC86B;
+}
+
+.card3 {
+    height: 360px;
+    width: 640px;
+    background-color: #EA2A35;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.card1 h2 {
+    font-size: 24px;
+    font-family: "gilroy";
+    font-weight: 600;
+    text-transform: capitalize;
+    color: white;
+}
+
+.card2 h2 {
+    font-size: 24px;
+    font-family: "gilroy";
+    font-weight: 600;
+    text-transform: capitalize;
+    color: white;
+}
+
+.card3 h2 {
+    font-size: 24px;
+    font-family: "gilroy";
+    font-weight: 600;
+    text-transform: capitalize;
+    color: white;
+}
+
+.card4 h2 {
+    font-size: 24px;
+    font-family: "gilroy";
+    font-weight: 600;
+    text-transform: capitalize;
+    color: white;
+}
+
+.card5 h2 {
+    font-size: 24px;
+    font-family: "gilroy";
+    font-weight: 600;
+    text-transform: capitalize;
+    color: white;
+}
+
+.card6 h2 {
+    font-size: 24px;
+    font-family: "gilroy";
+    font-weight: 600;
+    text-transform: capitalize;
+    color: white;
+}
+
+.card1 h1 {
+    font-size: 60px;
+    font-family: "gilroy";
+    font-weight: 600;
+    text-transform: capitalize;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    /* margin-top: 4px; */
+}
+
+.card2 h1 {
+    font-size: 60px;
+    font-family: "gilroy";
+    font-weight: 600;
+    text-transform: capitalize;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    /* margin-top: 4px; */
+}
+
+.card3 h1 {
+    font-size: 60px;
+    font-family: "gilroy";
+    font-weight: 600;
+    text-transform: capitalize;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    /* margin-top: 4px; */
+}
+
+.card4 h1 {
+    font-size: 60px;
+    font-family: "gilroy";
+    font-weight: 600;
+    text-transform: capitalize;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    /* margin-top: 4px; */
+}
+
+.card5 h1 {
+    font-size: 60px;
+    font-family: "gilroy";
+    font-weight: 600;
+    text-transform: capitalize;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    /* margin-top: 4px; */
+}
+
+.card6 h1 {
+    font-size: 60px;
+    font-family: "gilroy";
+    font-weight: 600;
+    text-transform: capitalize;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    /* margin-top: 4px; */
+}
+
+.card1 button {
+    font-family: "gilroy";
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #1375F5;
+    padding: 7px 30px;
+    margin-top: 5px;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+.card1 img {
+    height: 200px;
+    /* display: block; */
+    /* margin: 0 auto; */
+    /* margin-top: 10px; */
+}
+
+.card2 button {
+    font-family: "gilroy";
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #2AC86B;
+    padding: 7px 30px;
+    margin-top: 5px;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+.card2 img {
+    height: 240px;
+    /* display: block; */
+    /* margin: 0 auto; */
+    margin-top: -30px;
+    margin-left: 60px;
+}
+
+.card3 button {
+    font-family: "gilroy";
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #EA2A35;
+    padding: 7px 30px;
+    margin-top: 5px;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+.card3 img {
+    height: 240px;
+    /* display: block; */
+    /* margin: 0 auto; */
+    margin-top: -40px;
+    margin-left: 80px;
+}
+
+.card4 button {
+    font-family: "gilroy";
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #F3BE2C;
+    padding: 7px 30px;
+    margin-top: 5px;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+.card4 img {
+    height: 320px;
+    /* display: block; */
+    /* margin: 0 auto; */
+    /* margin-top: -40px; */
+    /* margin-left: 80px; */
+    position: absolute;
+    top: 18%;
+    right: 1%;
+}
+
+.card5 button {
+    font-family: "gilroy";
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #9BB6CF;
+    padding: 7px 30px;
+    margin-top: 5px;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+.card5 img {
+    height: 194px;
+    /* display: block; */
+    /* margin: 0 auto; */
+    /* margin-top: 10px; */
+    margin-left: 80px;
+}
+
+.card6 button {
+    font-family: "gilroy";
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #CEAF90;
+    padding: 7px 30px;
+    margin-top: 5px;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+.card6 img {
+    height: 244px;
+    /* display: block; */
+    /* margin: 0 auto; */
+    /* margin-top: 10px; */
+    position: absolute;
+    right: 0%;
+    bottom: 2%;
+}
+
+.productSection {
+    padding: 30px 40px;
+    /* background-color: red; */
+}
+
+.productSection #tagline {
+    font-size: 30px;
+    font-family: "gilroy";
+    font-weight: 600;
+    text-transform: capitalize;
+    color: black;
+    margin-left: 20px;
+}
+
+.allProducts {
+    display: flex;
+    align-items: center;
+    /* gap: 10px; */
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.product {
+    height: 300px;
+    width: 250px;
+    border-radius: 8px;
+    background-color: white;
+    overflow: hidden;
+    padding: 10px;
+    margin-left: 20px;
+    margin-bottom: 14px;
+    box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.126);
+    cursor: pointer;
+}
+
+.product:hover {
+    box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.207);
+}
+
+.product .topimg {
+    height: 70%;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.product .topimg img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.btmtext {
+    height: 50%;
+    width: 100%;
+}
+
+.nametext {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.titles {
+    display: flex;
+    flex-direction: column;
+}
+
+.nametext h4 {
+    font-size: 13px;
+    font-family: "gilroy";
+    font-weight: 400;
+    color: #8b8b8b;
+}
+
+.nametext h2 {
+    font-size: 24px;
+    font-family: "gilroy";
+    font-weight: 600;
+    text-transform: capitalize;
+    color: black;
+    margin-top: -4px;
+}
+
+.pricetext h2 {
+    font-size: 20px;
+    font-family: "gilroy";
+    font-weight: 500;
+    text-transform: capitalize;
+    /* color: black; */
+    color: #1375F5;
+    margin-top: 4px;
+}
+
+#nametextbutton{
+    height: 34px;
+    width: 34px;
+    border-radius: 50px;
+    background-color: #1375F5;
+    color: white;
+    cursor: pointer;
+    border: none;
+    box-shadow: 2px 2px 20px 0px #1375f53f;
+}
+
+.nametext button i {
+    font-size: 22px;
+}
+
+
+/* Footer */
+
+.footer {
+    height: 40vh;
+    /* padding: 40px 0px; */
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #2874f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footercon {
+    height: 100%;
+    width: 88%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footercon #logofooter {
+    height: 60px;
+}
+
+.footercon h1 {
+    font-family: "gilroy";
+    font-weight: 600;
+    text-transform: capitalize;
+    color: white;
+}
+
+.alllinks {
+    width: 76%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-top: 20px;
+}
+
+.quicklink h3 {
+    font-family: "gilroy";
+    font-weight: 500;
+    text-transform: capitalize;
+    color: white;
+}
+
+.links1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 14px;
+}
+
+.links1 a {
+    font-family: "gilroy";
+    font-weight: 400;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.sociallinks h3 {
+    font-family: "gilroy";
+    font-weight: 500;
+    text-transform: capitalize;
+    color: white;
+}
+
+.allsocial {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.onesocial {
+    height: 36px;
+    width: 36px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 14px;
+    margin-bottom: 14px;
+    cursor: pointer;
+}
+
+.onesocial i {
+    font-size: 18px;
+    color: #2874f0;
+}
+
+.playstore img {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    margin-bottom: 14px;
+    cursor: pointer;
+}
+
+.allbrands {
+    padding: 30px 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+#brandlogo {
+    width: auto;
+    height: 100px;
+    margin-left: 40px;
+}
+
+.brand1 {
+    margin-left: 80px !important;
+}
+
+.brandtag {
+    padding: 30px 40px;
+    margin-bottom: 40px;
+}
+
+.brandtag h2 {
+    font-size: 30px;
+    font-family: "gilroy";
+    font-weight: 600;
+    text-transform: capitalize;
+    color: black;
+    margin-left: 20px;
+}
+
+.allcards #offers {
+    font-size: 30px;
+    font-family: "gilroy";
+    font-weight: 600;
+    text-transform: capitalize;
+    color: black;
+    margin-left: 20px;
+}
+
+.coinmain {
+    height: calc(100vh - 70px);
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+}
+
+.leftpart {
+    height: inherit;
+    width: 50%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 0px 40px;
+}
+
+.textcontent h2 {
+    font-size: 46px;
+    font-family: "gilroy";
+    font-weight: 600;
+    text-transform: capitalize;
+    color: black;
+}
+
+.textcontent p {
+    font-size: 16px;
+    width: 90%;
+    font-family: "gilroy";
+    font-weight: 400;
+    margin-top: 16px;
+    color: #999;
+    line-height: 35px;
+}
+
+.rightpart {
+    height: inherit;
+    width: 50%;
+    /* background-color: grey; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.thecard {
+    position: absolute;
+    height: 220px;
+    width: 420px;
+    /* background-color: blue; */
+    transform-style: preserve-3d;
+    transition: all 0.8s ease;
+    cursor: pointer;
+}
+
+
+/* .thecard:hover {
+    transform: rotateY(180deg);
+} */
+
+.thefront {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    background-color: #1375F5;
+    /* color: #333; */
+    color: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.31);
+    overflow: hidden;
+    background-image: url("https://img.freepik.com/free-vector/gradient-futuristic-background-with-connection-concept_23-2149110797.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.theback {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    background-color: #8cb8ff;
+    /* color: #333; */
+    color: white;
+    border-radius: 12px;
+    padding: 20px;
+    transform: rotateY(180deg);
+}
+
+.Redeem {
+    font-size: 16px;
+    font-family: "gilroy";
+    font-weight: 600;
+    text-transform: capitalize;
+    background-color: #1375F5;
+    color: white;
+    padding: 7px 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.redpage{
+    height: calc(100vh - 70px);
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redcard{
+    height: 100%;
+    width: 80%;
+    /* background-color: white; */
+    border-radius: 12px;
+    /* box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.216); */
+    padding: 20px;
+}
+
+#redproductSection{
+    padding: 20px 40px;
+}
+
+.redcard h2{
+    font-size: 25px;
+    font-family: "gilroy";
+    font-weight: 600;
+    text-transform: capitalize;
+    color: black;
+}
+
+.columnsdetails{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.columnsdetails h4{
+    font-size: 14px;
+    font-family: "gilroy";
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #a3a3a3;
+}
+
+.redeemproduct{
+    height: 100px;
+    border-bottom: 2px solid #a3a3a3;
+    margin-top: 20px;
+    display: flex;
+}
+
+.redproductdets{
+    /* height: 60px; */
+    width: 48.5%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.redproimg{
+    height: 80px;
+    width: 80px;
+    background-color: red;
+    border-radius: 5px;
+    overflow: hidden;
+    /* gap: 10px; */
+}
+
+.redproimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.redprocontent h2{
+    font-family: "gilroy";
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.redprocontent h4{
+    font-family: "gilroy";
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.redprotoken{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tokenamount{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 4px;
+}
+
+.tokenamount h2{
+    font-size: 20px;
+    font-family: "gilroy";
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.tokenamount img{
+    height: 20px;
+}
+
+.twobuttons{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.rdmbutton{
+    font-size: 15px;
+    font-family: "gilroy";
+    font-weight: 600;
+    text-transform: capitalize;
+    /* background-color: red; */
+    background-color: #1375F5;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.line{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.allredemableproducts{
+    /* height: 30%; */
+    height: 490px;
+    /* background-color: grey; */
+    overflow-y: scroll;
+    /* scrollbar-width: none; */
+}
+
+.firstrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.firstrow h2 {
+    font-size: 21px;
+    font-family: "gilroy";
+    font-weight: 600;
+    text-transform: capitalize;
+    color: white;
+}
+
+.coinname {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.coinname img {
+    height: 28px;
+}
+
+.cartcontainer {
+    height: calc(100vh - 80px);
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    background-color: #dadada;
+}
+
+.leftcont {
+    height: inherit;
+    width: 70%;
+    /* background-color: green; */
+    padding: 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.rightcont {
+    height: inherit;
+    width: 30%;
+    /* background-color: grey; */
+    padding: 40px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: flex-start;
+}
+
+.itemscard {
+    height: 98%;
+    width: 90%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.allsavedproducts {
+    height: 74%;
+    /* background-color: grey; */
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.namerow {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.namerow h2 {
+    font-size: 22px;
+    font-family: "gilroy";
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.cartcontainer .hr {
+    width: 100%;
+    color: #dfdfdf;
+    margin-bottom: 20px;
+}
+
+.hr2 {
+    width: 100%;
+    color: #dfdfdf;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.smallcontainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.smallcontainer .productDets {
+    width: 48%;
+}
+
+.productDets h4 {
+    font-size: 14px;
+    font-family: "gilroy";
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #a3a3a3;
+}
+
+.smallcontainer .productPrice {
+    width: 52%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.productPrice h4 {
+    font-size: 14px;
+    font-family: "gilroy";
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #a3a3a3;
+}
+
+.proimage {
+    width: 44%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.product1details {
+    height: 100px;
+    border-bottom: 2px solid #a3a3a3;
+    margin-top: 20px;
+    display: flex;
+}
+
+.product1img {
+    height: 80px;
+    width: 80px;
+    /* background-color: red; */
+    border-radius: 5px;
+    overflow: hidden;
+    /* gap: 10px; */
+}
+
+.product1img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.product1name h2 {
+    /* font-size: 15px; */
+    font-family: "gilroy";
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.product1name h4 {
+    font-family: "gilroy";
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.product1name i {
+    font-size: 18px;
+    font-weight: 500;
+    color: red;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.product1smdets {
+    width: 56%;
+    /* background-color: grey; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.productquantity {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.decrementbutton {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: white;
+    margin-right: 6px;
+    padding: 0.1px 10px;
+    /* background-color: #999; */
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.150);
+}
+
+.incrementbutton {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: white;
+    margin-left: 6px;
+    padding: 4.5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.150);
+}
+
+.centerbutton {
+    padding: 6px 20px;
+    background-color: white;
+    /* border: 1px solid #999; */
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.150);
+}
+
+.product1smdets h4 {
+    font-size: 18px;
+    font-family: "gilroy";
+    font-weight: 600;
+    text-transform: capitalize;
+    color: black;
+}
+
+.ordersummary {
+    height: 80%;
+    width: 100%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.ordersummary h2 {
+    font-size: 22px;
+    font-family: "gilroy";
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.smcard {
+    width: 100%;
+}
+
+.subtotal {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 9px;
+}
+
+.subtotal h4 {
+    font-family: "gilroy";
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #515151;
+}
+
+.promo h3 {
+    margin-top: 20px;
+}
+
+.promo h3 {
+    font-size: 16px;
+    font-family: "gilroy";
+    font-weight: 500;
+    text-transform: capitalize;
+    color: black;
+}
+
+.promo input {
+    margin-top: 10px;
+    box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.144) !important;
+}
+
+.promo button {
+    font-size: 15px;
+    font-family: "gilroy";
+    font-weight: 600;
+    text-transform: capitalize;
+    background-color: #FA7474;
+    color: white;
+    border-radius: 5px;
+    padding: 6px 25px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.144);
+}
+
+.totalcost {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.checkout {
+    height: 34px;
+    width: 100%;
+    font-size: 16px;
+    font-family: "gilroy";
+    font-weight: 600;
+    text-transform: capitalize;
+    background-color: #5D50DD;
+    color: white;
+    margin-top: 12px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.144);
+}
